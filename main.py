@@ -81,7 +81,6 @@ def createVectorHash(v, rvs):
                 index_val = v[i]
             else:
                 index_val = v[0][i]
-            print("indexval:",index_val)
             sign += index_val * rv[i] #sign
         bitS.append(1 if sign >0 else 0)
     return tuple(bitS)
