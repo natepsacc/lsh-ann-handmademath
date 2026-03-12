@@ -144,7 +144,7 @@ def search(query):
             most_sim =v
     return most_sim
 
-print(search( "I knew a guy who was from mars"))
+print(search( "I knew a guy who was from mars")) # -> i rode a bike on jupiter
 
 # combs = itertools.combinations(strings, 2)
  
